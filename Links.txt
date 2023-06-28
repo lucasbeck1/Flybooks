@@ -1,0 +1,9 @@
+Deploy Front
+https://flybooks.vercel.app
+Deploy Back
+https://flybooks.up.railway.app
+
+Git Front
+https://github.com/DianneMem/Repo-PF
+Git Back
+https://github.com/DianneMem/Repo-PF-back
