@@ -1,0 +1,111 @@
+.decOff{
+  text-decoration: none;
+}
+
+.containerImage{
+display: flex;
+margin-bottom: 50px;
+margin-top: 50px;
+}
+
+.containerTitle{
+  height: 5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.aux{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.favorite{
+  background-color: rgba(187, 0, 0, 0);
+  border: 0;
+  transition: 0.3s;
+  color: red;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+} 
+.favorite:hover {
+  background-color: rgba(170, 170, 170, 0.247);
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.card{
+  border:1px solid wheat;
+  border-radius: 5px;
+  background-color: #e9e7e192;
+  color: rgb(63, 56, 44);
+  width: 15rem;
+  height: 23rem;
+  padding-top: 0.5rem;
+  margin-bottom: 50px;
+}
+
+
+.card h4{
+  padding: 0px;
+  margin: 7px;
+}
+
+.card p{
+  padding: 0px;
+  margin: 3px;
+  margin-left: 6px;
+}
+
+
+
+
+.cardStatic{
+  border:1px solid wheat;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #969090b9;
+  width: 340px;
+  height: auto;
+  color: rgb(63, 56, 44);
+}
+
+.cardStatic h4{
+  padding: 0px;
+  margin: 7px;
+}
+
+.cardStatic p{
+  padding: 0px;
+  margin: 3px;
+}
+
+
+.image{
+ /*width:12rem;*/
+ width:8rem;
+ height:12.5rem;
+ object-fit: cover;
+ border-radius: 3px;
+ margin-left: 2.5rem;
+ padding: 0.8rem;
+ padding-right: 0rem;
+ align-items: center;
+ justify-content:right;
+}
+
+.data{
+  text-align: start;
+}
+
+.foot{
+display: flex;
+justify-content: space-between;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+
+}
+

@@ -1,0 +1,50 @@
+.container_About{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pharagraph{
+    margin: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 70px;
+}
+
+.devs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.photo{
+    border-radius: 50%;
+}
+
+.Profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #495867;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 20%;
+    list-style-type: none;
+    color: inherit;
+
+}

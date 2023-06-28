@@ -1,0 +1,49 @@
+.container{
+border: 2px solid rgb(196, 196, 196);
+border-radius: 3rem;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+
+
+
+
+/* Old Pagindated */
+/* 
+nav{
+  display: flex;
+  
+  }
+  
+  .paginated{
+    margin-bottom: 50px;
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.9rem;
+   background-color: white;
+  
+    border: solid 1.6px #bfc0c0;
+    border-radius: 3px;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  .btn:hover{
+    color:rgb(0, 0, 0);
+    background-color:#ebebeb;
+    transform: scale(1.1);
+  }
+  .btn:active{
+    background-color:#595959;
+  }
+  */

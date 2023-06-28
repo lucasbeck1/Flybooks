@@ -1,0 +1,12 @@
+.user{
+  background-color: rgb(248, 235, 219);
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  color: rgb(63, 56, 44);
+  border:1px solid wheat;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  transition-duration: 0.5s;
+  gap: 1rem;
+}

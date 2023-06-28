@@ -1,0 +1,28 @@
+.stripeContainer{
+  background: bisque;
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-template-areas:
+  "a a"
+  ;
+  align-content: center;
+  
+  }
+  .productCard{
+    justify-content: center;
+    background: #ffffff;
+    width: 30rem;
+    padding: 30px 40px;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+    margin-left: 3rem;
+    margin-top: 8rem; 
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-items: center
+  
+  }
+  .paymentImg{
+    width: 15rem;
+    height: 18rem;
+  }
+  

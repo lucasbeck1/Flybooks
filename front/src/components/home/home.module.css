@@ -1,0 +1,90 @@
+.components{
+  display: flex;
+  gap: 6rem
+}
+
+.cards{
+  display: grid;
+  grid-template-areas:
+    'card card card card';
+  gap: 1.5rem;
+}
+
+  
+.favorite{
+  background-color: rgba(187, 0, 0, 0);
+  border-radius: 3rem;
+  border: 0.1px solid rgb(117, 117, 117);
+  transition: 0.3s;
+  color: red;
+} 
+.favorite:hover {
+  background-color: rgba(170, 170, 170, 0.247);
+  border-color: rgba(255, 255, 255, 0);
+}
+  
+.card{
+  position: static;
+  transition-duration: 0.4s;
+}
+.card:hover{
+  transform: scale(1.04);
+}
+  
+.paginated{
+display: flex;
+justify-content: center;
+background-color: white;
+padding-top: 1rem  ;
+padding-bottom: 1rem;
+margin-top: 2.5rem;
+margin-bottom: 2rem;
+}
+
+.pageBtn{
+  display: flex;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  color:rgb(0, 0, 0);
+  background-color:white;
+  border: solid 2px #bfc0c0;
+  border-radius: 3px;
+  margin: 0.2rem;
+  padding-top: 0.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.pageBtn:hover{
+  color:rgb(0, 0, 0);
+  background-color:#bfc0c0;
+}
+.pageBtn:active{
+  background-color:#bfc0c0;
+}
+
+.noBtn{
+  color:rgb(255, 255, 255);
+  background-color:rgb(255, 255, 255);
+  border: none;
+}
+
+
+.paginateContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ImageContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+

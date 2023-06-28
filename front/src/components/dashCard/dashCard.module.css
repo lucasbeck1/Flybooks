@@ -1,0 +1,78 @@
+.decOff{
+  text-decoration: none;
+}
+
+.card{
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-color: #e9e7e1;
+  color: rgb(63, 56, 44);
+  border:1px solid wheat;
+  border-radius: 5px;
+  display: flex;
+/*   flex-direction: row;
+  flex-wrap: wrap; */
+  transition-duration: 0.5s;
+  font-family: Verdana;
+  font-size: 0.9rem;
+}
+.card h4{
+  padding: 0px;
+  margin: 7px;
+}
+.card p{
+  padding: 0px;
+  margin: 3px;
+  margin-left: 6px;
+}
+
+.card span{
+  padding: 0px;
+  margin: 3px;
+  margin-left: 6px;
+}
+
+.card:hover{
+  /* background-color: #ccc3a8; */
+}
+
+
+.image{
+  height:8rem;
+  width:6rem;
+  padding: 0.5rem;
+ /*  object-fit: cover; */
+  object-fit: fill;
+  border-radius: 3px;
+}
+
+.content{
+display: flex;
+}
+
+.info{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.infoContainer{
+display: flex;
+flex-direction: row;
+}
+
+.controllerContainer{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem
+}
+
+.title{
+font-weight: 500;
+}
+
+.inputTransparent{
+background-color: rgba(255, 255, 255, 0.363);
+border: none;
+}
+

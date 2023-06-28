@@ -1,0 +1,53 @@
+.footer {
+    color: var(--bs-text-light);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    /* width: 100vw; */
+    justify-content: space-around;
+    cursor: pointer;
+    z-index: 999;
+    margin-top: auto;
+    height: 105px;
+    
+    
+
+}
+
+.icons {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+    border: none !important;
+    list-style-type: none;
+    width: 150px;
+    color: inherit;
+   
+    
+      
+}
+
+.icons:hover {
+    color: var(--bs-link-hover);
+    transform: scale(1.1);
+}
+
+.about {
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.copyright {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

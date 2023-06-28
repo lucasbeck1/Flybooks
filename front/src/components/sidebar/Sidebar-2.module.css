@@ -1,0 +1,97 @@
+.container{
+  /* background-color: rgb(252, 232, 207); */
+  background-color: #006ba6;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border-left: 2px solid rgb(196, 196, 196);
+  border-right: 2px solid rgb(196, 196, 196);
+  
+}
+.nav select{
+  border: solid 2px wheat;
+  width: 7rem;
+  height: 2rem;
+}
+
+.state{
+  display: flex;
+  flex-direction: column;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.btn0{
+  font-size: 0.7rem;
+  color:rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
+  border: solid 2px wheat;
+  border-radius: 3px;
+  margin: 0.2rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn0:hover{
+  color:rgb(0, 0, 0);
+  background-color:rgb(242, 191, 252);
+}
+.btn0:active{
+  background-color:rgb(207, 110, 226);
+}
+
+.btn1{
+  width: 4rem;
+  height: 2rem;
+  font-size: 0.7rem;
+  color:rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
+  border: solid 2px wheat;
+  border-radius: 3px;
+  margin: 0.2rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn1:hover{
+  color:rgb(0, 0, 0);
+  background-color:rgb(242, 191, 252);
+}
+.btn1:active{
+  background-color:rgb(207, 110, 226);
+}
+
+.btn2{
+  width: 5rem;
+  height: 2rem;
+  font-size: 0.7rem;
+  color:rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
+  border: solid 2px wheat;
+  border-radius: 3px;
+  margin: 0.2rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn2:hover{
+  color:rgb(0, 0, 0);
+  background-color:rgb(242, 191, 252);
+}
+.btn2:active{
+  background-color:rgb(207, 110, 226);
+}

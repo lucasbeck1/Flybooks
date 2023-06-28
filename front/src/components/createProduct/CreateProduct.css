@@ -1,0 +1,81 @@
+body{
+  margin:0;
+}
+.background{    
+  background: #1A2027;
+  background-size: 100%;
+
+}
+
+.card{padding: 30px 40px;margin-top: 7rem;margin-bottom: 30px;border: none !important;box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);}
+
+
+.choosenGenders{padding: 8px 30px;border-radius: 5px !important;margin:6px;box-sizing: border-box;border: 1px solid #ccc;font-size: 16px !important;font-weight: 300;cursor: pointer; transition-duration: 0.4s;}
+
+.choosenGenders:hover{
+  border: 1px solid rgb(228, 69, 69);
+}
+
+.choosenGenders2{border-radius: 5px !important;margin:6px;box-sizing: border-box;border: 1px solid #ccc;font-size: 16px !important;font-weight: 300;cursor: pointer; transition-duration: 0.4s;}
+
+.choosenGenders2:hover{
+  border: 1px solid rgb(228, 69, 69);
+}
+
+.backBtn{
+  padding: 8px 30px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;border: 1px solid #ccc;font-size: 18px !important;font-weight: 300;
+  font-size: 15px !important;font-weight: 400;height: 43px;cursor: pointer;width: 8rem;
+}
+backBtn:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;outline-width: 0;}
+
+.backBtn:hover{color: rgb(135, 133, 133) !important}
+
+
+.input{
+  padding: 8px 30px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;border: 1px solid #ccc;font-size: 18px !important;font-weight: 300
+}
+.buttonFormImg{color:rgb(138, 221, 156) !important ;padding: 8px 30px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;font-size: 18px !important;font-weight: 300; border:2px solid rgb(138, 221, 156) !important;width: 100%;}
+
+.buttonFormImg{font-size: 15px !important;font-weight: 400;height:3.5rem;cursor: pointer}
+
+.buttonFormImg:hover{color:rgb(138, 221, 156) !important}
+
+.buttonFormImg:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;outline-width: 0;}
+
+.buttonForm{padding: 8px 30px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;border: 1px solid #ccc;font-size: 18px !important;font-weight: 300}
+
+.buttonForm{font-size: 15px !important;font-weight: 400;height: 43px;cursor: pointer}
+
+.buttonForm:hover{color: rgb(133, 135, 134) !important}
+
+.buttonForm:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;outline-width: 0;}
+
+.buttonFormImgErr{color:rgb(231, 127, 120) !important ;padding: 8px 30px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;font-size: 18px !important;font-weight: 300; border:2px solid rgb(231, 127, 120) !important;width: 100%;}
+
+.buttonFormImgErr{font-size: 15px !important;font-weight: 400;height:3.5rem;cursor: pointer}
+
+.buttonFormImgErr:hover{color:rgb(231, 127, 120) !important}
+
+.buttonFormImgErr:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;outline-width: 0;}
+
+.select{padding: 8px 15px;border-radius: 5px !important;margin: 5px 0px;box-sizing: border-box;border: 1px solid #ccc;font-size: 18px !important;font-weight: 300}
+
+.publication{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.5rem;
+  color:rgb(92, 92, 92)
+}
+
+.input:focus{-moz-box-shadow: none !important;-webkit-box-shadow: none !important;box-shadow: none !important;border: 1px solid #00BCD4;outline-width: 0;font-weight: 400}
+
+
+
+.btn-block{text-transform: uppercase;font-size: 15px !important;font-weight: 400;height: 43px;cursor: pointer}
+.btn-block:hover{color: #fff !important}
+
+.errForm{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.5rem;
+  color: rgb(250, 67, 67);
+  font-size: 12px;
+}

@@ -1,0 +1,94 @@
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 ;
+    margin: 0;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detailSeller {
+    width: 100%;
+}
+
+.icon {
+    width: 40px;
+
+}
+
+.detailSpan{
+    font-size: 16px;
+    color:rgb(34, 34, 34)
+}
+
+.buttonsIcons {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
+.buttonsIcons button {
+    border: none;
+}
+
+.typebook {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.left {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.right {
+    padding: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* .buttonBack{
+    background-color: #006ba6;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+    margin-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #8d8883;
+    color: rgb(23, 23, 23);
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+} */
+.buttonBack:hover{
+    color: rgb(46, 46, 46);
+    border: 2px solid #d2b28f;
+}
+.button{
+    background-color: #f5ebe0;
+    border-radius: 5px;
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+
+}

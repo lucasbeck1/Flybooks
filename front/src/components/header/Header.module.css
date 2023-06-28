@@ -1,0 +1,77 @@
+
+:root {
+--bs-dark: #212529;
+--bs-bisque: #ffe4c4;
+--bs-text-light: rgb(255, 255, 255);
+--bs-text-grey1: rgba(255, 255, 255, 0.55);
+--bs-text-grey2: rgb(179, 179, 179);
+--bs-text-dark: rgb(0, 0, 0);
+}
+
+.header{
+background-color: var(--bs-dark);
+color: var(--bs-text-light);
+display: flex;
+justify-content: space-between;
+padding-left: 2rem;
+/* padding-right: 2rem; */
+align-items: center;
+width: 100vw;
+padding: 0 !important;
+margin: 0;
+left: 0;
+}
+
+.header h2{
+margin-bottom: 0px;
+}
+
+.CardTitleHeader{
+  background: #ffffff;
+  width: 14rem;
+  margin-bottom: 1rem;box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2);
+  border-radius: 24px;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  height: 5rem;
+  border:3px rgb(114, 114, 114);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.titleHeader{
+
+color: #212529;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-top: 0.2rem;
+}
+
+.titleHeaderOO{
+
+  color: #177de3;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 0.2rem;
+  }
+
+.backTitleHeader{
+  font-style: oblique;
+  color: #212529;
+  
+}
+.container{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.link{
+border: none;
+background-color: rgba(255, 228, 196, 0);
+color: var(--bs-text-grey2);
+}
+
+
